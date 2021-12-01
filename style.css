@@ -1,0 +1,205 @@
+/*general*/
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 800;
+}
+
+.debug{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.row::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #3163E0;
+    line-height: 80px;
+}
+
+.jumbotron{
+    background-image: url('img/jumbo.png');
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+footer{
+    background-color: #23272A;
+}
+
+.container{
+    width: 80%;
+}
+
+.btn{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 40px;
+    padding: 8px 16px;
+}
+
+.btn-big{
+    padding: 16px 32px;
+}
+
+.btn-black{
+    background-color: #222;
+    color: white;
+}
+
+.btn-blue{
+    background-color: #7d9cec;
+    color: white;
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+p{
+    font-size: 15px;
+}
+
+main{
+    height: 1500px;
+    width: 80%;
+    margin-top: 100px;
+}
+
+
+/*fine general*/
+
+
+#logo{
+    float: left;
+    width: 15%;
+    vertical-align: middle;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+
+header nav{
+    float: left;
+}
+
+#login{
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+
+nav{
+    width: 70%;
+}
+
+nav ul{
+    display: block;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.container-jumbo{
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container-jumbo p{
+    margin-bottom: 30px;
+}
+
+
+
+.container-jumbo .btn{
+    margin: 10px; 0px;
+}
+
+.fas{
+    color: #222;
+    margin-right: 10px;
+}
+
+.left{
+    float: left;
+    width: 60%;
+}
+
+.text{
+    float: right;
+    width: 39%;
+    margin-top: 50px;
+}
+
+h3{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.text p{
+    color: black;
+}
+
+.right{
+    float: right;
+    width: 60%;
+}
+
+.text-left{
+    float: left;
+    width: 39%;
+    margin-top: 50px;
+}
+
+.text-left p{
+    color: black;
+}
+
+.middle{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.middle p{
+    color: black;
+}
+
+.img-stars{
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.text-stars{
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    font-size: 25px;
+
+}
